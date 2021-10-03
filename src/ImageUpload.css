@@ -1,0 +1,28 @@
+.imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: fit-content;
+    padding: 20px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+
+}
+
+.image__upload{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.enter_caption{
+    margin-bottom: 10px;
+    border: 1.5px solid lightseagreen;
+    padding: 4px 10px;
+    font-size: 16px;
+    outline: none;
+}

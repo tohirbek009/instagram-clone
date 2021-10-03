@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  background-color: #fafafa;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__posts{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__postright{
+  margin-left: 20px;
+}
+
+.app__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px 200px;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage{
+  object-fit: contain;
+}
+
+.app__signup{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+.login__for__uploading{
+  background-color: lightsalmon;
+  padding: 5px;
+  border-radius: 5px;
+  height: fit-content;
+  font-family: 'Poppins', sans-serif;
   color: white;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.span{
+  color: blue;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 574px) {
+  .app__header{
+    padding: 20px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 874px) {
+  .app__header{
+    padding: 20px 60px;
   }
 }
