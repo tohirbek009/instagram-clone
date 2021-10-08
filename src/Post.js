@@ -46,7 +46,7 @@ function Post({ postId, user, username, caption, imageUrl }) {
                 <Avatar 
                     className="post__avatar"
                     alt="TaveQazi"
-                    src="/src/images/img1.webp"
+                    src="https://icon-library.com/images/user-icon-jpg/user-icon-jpg-2.jpg"
                 />
 
                 <h3>{username}</h3> 
